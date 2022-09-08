@@ -14,7 +14,7 @@ const Homecard = ({ title, description, imgUrl, className }) => {
                         className="h-56 md:h-80 object-contain"
                     />
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center md:items-start drop-shadow-md">
                     <h3 className="text-1xl md:text-2xl text-poppins font-bold text-gray-600 px-5">
                         {title}
                     </h3>
