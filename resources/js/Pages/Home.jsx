@@ -132,7 +132,7 @@ const Home = () => {
                 </main>
             </section>
 
-            <section className="h-screen bg-white z-10 relative">
+            <section className="h-fit md:h-screen bg-white z-10 relative">
                 <main className="flex flex-col items-center relative z-40">
                     <h2 className="text-2xl md:text-4xl font-bold text-poppins text-center text-[#5B5B5B] z-30">
                         Feedback
@@ -177,7 +177,43 @@ const Home = () => {
                 <div className="h-full w-96 left-full-radius bg-[#F8F8F8] absolute top-0 right-0"></div>
             </section>
 
-            <section className="h-96 w-full bg-[#269BCC]"></section>
+            <section className="h-96 w-full bg-[#269BCC] relative">
+                <main className="flex flex-col h-full px-20 justify-center gap-5">
+                    <div className="text-area w-1/2">
+                        <h2 className="text-poppins font-bold text-white text-2xl">
+                            Thanks for visit my webpages
+                        </h2>
+                        <p className="text-1xl text-[#F8F8F8]">
+                            hopefully this website can help you to reach a
+                            better life, avoid you from drugs. so, say no to
+                            drugs!
+                        </p>
+                    </div>
+                    <div className="text-area w-1/2">
+                        <h2 className="text-poppins font-bold text-white text-2xl">
+                            Who contributed with this site ?
+                        </h2>
+                        <ul className="text-white text-poppins">
+                            <li>Universitas Bina Sarana Informatika</li>
+                            <li>Laracast Forums</li>
+                            <li>Bootstrap Community</li>
+                            <li>Tailwind css Forums</li>
+                            <li>React js Forums</li>
+                        </ul>
+                    </div>
+                    <div className="portofolio flex flex-col gap-2 items-end absolute bottom-10 right-10 text-poppins text-sm">
+                        <p className="text-white text-1xl">
+                            Therefore you can check my portofolio
+                        </p>
+                        <a
+                            href="https://faidfadjri.github.io/portofolio/"
+                            className="bg-sky-500 px-10 py-2 rounded-full text-white drop-shadow-md hover:scale-110 delay-150 smooth duration-300"
+                        >
+                            faidfadjri.github.io/portofolio
+                        </a>
+                    </div>
+                </main>
+            </section>
         </>
     );
 };
